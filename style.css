@@ -1,0 +1,42 @@
+body{
+    color: #FFF;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    background-image: url("./back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#content-box {
+    width: 400px;
+    height: 500px;
+    background-color: grey;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.30) 0.37%, rgba(0, 0, 0, 0.00) 120.12%);
+
+}
+
+#calculate{
+    font-size: 20px;
+    color: white;
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: linear-gradient(313deg, rgba(255, 0, 0, 0.80) -77.07%, rgba(255, 0, 0, 0.00) 89.84%);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#result-percentage{
+    font-size: 50px;
+    margin: auto;
+
+}
